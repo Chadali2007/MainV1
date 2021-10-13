@@ -1,0 +1,331 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local KeyFrame = Instance.new("Frame")
+local KeyLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local Check = Instance.new("TextButton")
+local Key = Instance.new("TextBox")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local MainFrame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Shindo = Instance.new("TextButton")
+local StrongestPunch = Instance.new("TextButton")
+local JailBreak = Instance.new("TextButton")
+local Madcity = Instance.new("TextButton")
+local Strucid = Instance.new("TextButton")
+local Islands = Instance.new("TextButton")
+local MurderMystery2 = Instance.new("TextButton")
+local DaHood = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local OpenFrame = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+KeyFrame.Name = "Key Frame"
+KeyFrame.Parent = ScreenGui
+KeyFrame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+KeyFrame.Position = UDim2.new(0.357355118, 0, 0.28957054, 0)
+KeyFrame.Size = UDim2.new(0, 344, 0, 249)
+
+KeyLabel.Name = "KeyLabel"
+KeyLabel.Parent = KeyFrame
+KeyLabel.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+KeyLabel.BorderSizePixel = 0
+KeyLabel.Size = UDim2.new(0, 344, 0, 50)
+KeyLabel.Font = Enum.Font.SourceSans
+KeyLabel.Text = "Welcome to MhM Hub!"
+KeyLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
+KeyLabel.TextSize = 32.000
+KeyLabel.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.Parent = KeyLabel
+
+UICorner_2.CornerRadius = UDim.new(0, 9)
+UICorner_2.Parent = KeyFrame
+
+Check.Name = "Check"
+Check.Parent = KeyFrame
+Check.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Check.BorderColor3 = Color3.fromRGB(0, 255, 255)
+Check.Position = UDim2.new(0.235465109, 0, 0.68699187, 0)
+Check.Size = UDim2.new(0, 182, 0, 44)
+Check.Font = Enum.Font.SourceSans
+Check.Text = "Check"
+Check.TextColor3 = Color3.fromRGB(0, 255, 255)
+Check.TextScaled = true
+Check.TextSize = 14.000
+Check.TextWrapped = true
+
+Key.Name = "Key"
+Key.Parent = KeyFrame
+Key.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Key.BorderColor3 = Color3.fromRGB(0, 255, 255)
+Key.Position = UDim2.new(0.200581402, 0, 0.454843789, 0)
+Key.Size = UDim2.new(0, 205, 0, 39)
+Key.Font = Enum.Font.SourceSans
+Key.PlaceholderColor3 = Color3.fromRGB(0, 255, 255)
+Key.PlaceholderText = "Key Here"
+Key.Text = ""
+Key.TextColor3 = Color3.fromRGB(0, 255, 255)
+Key.TextScaled = true
+Key.TextSize = 14.000
+Key.TextWrapped = true
+
+TextLabel.Parent = KeyFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.159883723, 0, 0.20080322, 0)
+TextLabel.Size = UDim2.new(0, 234, 0, 35)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Join the discord to get the key"
+TextLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
+TextLabel.TextSize = 19.000
+
+TextLabel_2.Parent = KeyFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.159883708, 0, 0.313253015, 0)
+TextLabel_2.Size = UDim2.new(0, 234, 0, 28)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "https://discord.gg/8ne3FTrMzm"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 255, 255)
+TextLabel_2.TextSize = 19.000
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+MainFrame.BorderColor3 = Color3.fromRGB(0, 255, 255)
+MainFrame.Position = UDim2.new(-2.26727916e-08, 0, 0.442944705, 0)
+MainFrame.Size = UDim2.new(0, 427, 0, 329)
+MainFrame.Visible = false
+
+ScrollingFrame.Parent = MainFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 255, 255)
+ScrollingFrame.Position = UDim2.new(0.000706835883, 0, 0.189290062, 0)
+ScrollingFrame.Size = UDim2.new(0, 425, 0, 266)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 3, 0)
+ScrollingFrame.ScrollBarThickness = 10
+
+Shindo.Name = "Shindo"
+Shindo.Parent = ScrollingFrame
+Shindo.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Shindo.BorderColor3 = Color3.fromRGB(0, 255, 255)
+Shindo.Position = UDim2.new(0.0643021315, 0, -0.000122414494, 0)
+Shindo.Size = UDim2.new(0, 139, 0, 32)
+Shindo.Font = Enum.Font.Ubuntu
+Shindo.Text = "Shindo"
+Shindo.TextColor3 = Color3.fromRGB(0, 255, 255)
+Shindo.TextSize = 25.000
+Shindo.TextWrapped = true
+Shindo.MouseButton1Down:connect (function()
+	loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
+end)
+
+StrongestPunch.Name = "StrongestPunch"
+StrongestPunch.Parent = Shindo
+StrongestPunch.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+StrongestPunch.BorderColor3 = Color3.fromRGB(0, 255, 255)
+StrongestPunch.Position = UDim2.new(1.40527594, 0, -0.0268907547, 0)
+StrongestPunch.Size = UDim2.new(0, 138, 0, 32)
+StrongestPunch.Font = Enum.Font.Ubuntu
+StrongestPunch.Text = "StrongestPunch"
+StrongestPunch.TextColor3 = Color3.fromRGB(0, 255, 255)
+StrongestPunch.TextSize = 19.000
+StrongestPunch.TextWrapped = true
+StrongestPunch.MouseButton1Down:connect (function()
+	loadstring(game:HttpGet("https://www.lionhub.xyz/LIONHUB.lua"))()
+end)
+
+JailBreak.Name = "JailBreak"
+JailBreak.Parent = Shindo
+JailBreak.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+JailBreak.BorderColor3 = Color3.fromRGB(0, 255, 255)
+JailBreak.Position = UDim2.new(-0.00502639916, 0, 1.6918602, 0)
+JailBreak.Size = UDim2.new(0, 138, 0, 32)
+JailBreak.Font = Enum.Font.Ubuntu
+JailBreak.Text = "JailBreak"
+JailBreak.TextColor3 = Color3.fromRGB(0, 255, 255)
+JailBreak.TextSize = 25.000
+JailBreak.TextWrapped = true
+JailBreak.MouseButton1Down:connect (function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+end)
+
+Madcity.Name = "Mad city"
+Madcity.Parent = Shindo
+Madcity.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Madcity.BorderColor3 = Color3.fromRGB(0, 255, 255)
+Madcity.Position = UDim2.new(1.40527606, 0, 1.6918602, 0)
+Madcity.Size = UDim2.new(0, 139, 0, 32)
+Madcity.Font = Enum.Font.Ubuntu
+Madcity.Text = "Mad City"
+Madcity.TextColor3 = Color3.fromRGB(0, 255, 255)
+Madcity.TextSize = 24.000
+Madcity.TextWrapped = true
+Madcity.MouseButton1Down:connect (function()
+	loadstring(game:HttpGet("https://jack1214060.xyz/jayhub",true))()
+end)
+
+Strucid.Name = "Strucid"
+Strucid.Parent = Shindo
+Strucid.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Strucid.BorderColor3 = Color3.fromRGB(0, 255, 255)
+Strucid.Position = UDim2.new(0, 0, 3.34374905, 0)
+Strucid.Size = UDim2.new(0, 139, 0, 32)
+Strucid.Font = Enum.Font.Ubuntu
+Strucid.Text = "Strucid"
+Strucid.TextColor3 = Color3.fromRGB(0, 255, 255)
+Strucid.TextSize = 25.000
+Strucid.TextWrapped = true
+Strucid.MouseButton1Down:connect (function()
+	loadstring(game:HttpGet(("https://darkhub.xyz/remote-script.lua"), true))()
+end)
+
+
+Islands.Name = "Islands"
+Islands.Parent = Shindo
+Islands.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Islands.BorderColor3 = Color3.fromRGB(0, 255, 255)
+Islands.Position = UDim2.new(1.39808178, 0, 3.34374905, 0)
+Islands.Size = UDim2.new(0, 138, 0, 32)
+Islands.Font = Enum.Font.Ubuntu
+Islands.Text = "Islands"
+Islands.TextColor3 = Color3.fromRGB(0, 255, 255)
+Islands.TextSize = 25.000
+Islands.TextWrapped = true
+Islands.MouseButton1Down:connect (function()
+	loadstring(game:HttpGet("http://void-scripts.com/Scripts/islands_new.lua"))()
+end)
+
+MurderMystery2.Name = "Murder Mystery 2"
+MurderMystery2.Parent = Shindo
+MurderMystery2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+MurderMystery2.BorderColor3 = Color3.fromRGB(0, 255, 255)
+MurderMystery2.Position = UDim2.new(0, 0, 4.96874905, 0)
+MurderMystery2.Size = UDim2.new(0, 139, 0, 32)
+MurderMystery2.Font = Enum.Font.Ubuntu
+MurderMystery2.Text = "Murder Mystery 2"
+MurderMystery2.TextColor3 = Color3.fromRGB(0, 255, 255)
+MurderMystery2.TextSize = 17.000
+MurderMystery2.TextWrapped = true
+MurderMystery2.MouseButton1Down:connect (function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
+end)
+
+DaHood.Name = "Da Hood"
+DaHood.Parent = Shindo
+DaHood.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+DaHood.BorderColor3 = Color3.fromRGB(0, 255, 255)
+DaHood.Position = UDim2.new(1.38848925, 0, 4.96874905, 0)
+DaHood.Size = UDim2.new(0, 139, 0, 32)
+DaHood.Font = Enum.Font.Ubuntu
+DaHood.Text = "Da Hood"
+DaHood.TextColor3 = Color3.fromRGB(0, 255, 255)
+DaHood.TextSize = 19.000
+DaHood.TextWrapped = true
+DaHood.MouseButton1Down:connect (function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Vanis252/valiantdhxd/main/.gitignore"))()
+end)
+
+TextLabel_3.Parent = MainFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.251867801, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 224, 0, 37)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "MhMHub"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextButton.Parent = MainFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0257731955, 0, 0.0212765951, 0)
+TextButton.Size = UDim2.new(0, 38, 0, 30)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(0, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Click:connect (function()
+	OpenFrame.Visible = true
+	MainFrame.Visible = false
+end)
+
+TextLabel_4.Parent = MainFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.280396819, 0, 0.112461999, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 17)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Version 1!!!!"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 255, 255)
+TextLabel_4.TextSize = 18.000
+
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = ScreenGui
+OpenFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenFrame.BorderColor3 = Color3.fromRGB(0, 255, 255)
+OpenFrame.Position = UDim2.new(-0.0044576521, 0, 0.305521458, 0)
+OpenFrame.Size = UDim2.new(0, 100, 0, 24)
+OpenFrame.Visible = false
+
+Open.Name = "Open"
+Open.Parent = OpenFrame
+Open.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Open.BorderColor3 = Color3.fromRGB(0, 255, 255)
+Open.Position = UDim2.new(0, 0, -0.00957234669, 0)
+Open.Size = UDim2.new(0, 100, 0, 24)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Open MhMHub"
+Open.TextColor3 = Color3.fromRGB(0, 255, 255)
+Open.TextScaled = true
+Open.TextSize = 14.000
+Open.TextWrapped = true
+Open.MouseButton1Click:connect (function()
+	MainFrame.Visible = true
+	OpenFrame.Visible = false
+end)
+
+-- Scripts:
+
+local function IWZZO_fake_script() -- Check.LocalScript 
+	local script = Instance.new('LocalScript', Check)
+
+	local Key = script.Parent.Parent.Key
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if Key.Text == "MhM" then
+			script.Parent.Parent:TweenPosition(UDim2.new(0,357,-1,9,0), "Out", "Quad", 1, true)
+			script.Parent.Parent.Parent.OpenFrame.Visible = true
+			wait(5)
+			script.Parent.Parent:Destroy()
+		elseif
+			Key.Text == "" then
+		    Key.Text = "" else
+		    Key.Text = "Incorrect,Try Again"
+			wait(1)
+			Key.Text = "MhM"
+		end
+	end)
+end
+coroutine.wrap(IWZZO_fake_script)()
